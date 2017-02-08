@@ -1,0 +1,47 @@
+{
+  "gitbook": ">3.0.0",
+  "plugins": [
+    "theme-api",
+    "edit-link",
+    "prism",
+    "packt-fontsettings",
+    "sunlight-highlighter",
+    "bandwidth-highlight",
+    "code-highlighter",
+    "include-highlight",
+    "lilypond-highlight",
+    "ponylang-highlight",
+    "spin-highlighter",
+    "github",
+    "github-edit",
+    "theme-vuejs@git+https://github.com/pearofducks/gitbook-plugin-theme-vuejs.git"
+  ],
+  "pluginsConfig": {
+    "theme-api": {
+      "languages": [
+        {
+          "lang": "js",
+          "name": "JavaScript",
+          "default": true
+        },
+        {
+          "lang": "go",
+          "name": "Go"
+        }
+      ]
+    },
+    "edit-link": {
+      "base": "https://github.com/smileFDD/GitBook-MapApi/tree/master/docs",
+      "label": "Edit This Page"
+    },
+    "github": {
+      "url": "https://github.com/smileFDD/mapApi"
+    }
+  },
+  "links": {
+    "sharing": {
+      "facebook": false,
+      "twitter": false
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "webGIS",
+  "version": "1.0.0",
+  "description": "webGIS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "webGIS"
+  ],
+  "author": "FDD",
+  "license": "ISC"
+}

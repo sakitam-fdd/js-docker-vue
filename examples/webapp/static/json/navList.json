@@ -1,0 +1,65 @@
+[
+  {
+    "label": "地图示例",
+    "children": [
+      {
+        "label": "简单地图展示",
+        "alias": "simpleMap"
+      },
+      {
+        "label": "同时加载两个地图",
+        "alias": "loadTwoMap"
+      },
+      {
+        "label": "根据经纬度设置地图中心点",
+        "alias": "setCenter"
+      },
+      {
+        "label": "设置地图最大、最小级别",
+        "alias": "setMinMaxRes"
+      }
+    ]
+  },
+  {
+    "label": "地图控件示例",
+    "children": [
+      {
+        "label": "添加/删除工具条、比例尺控件",
+        "alias": "add-del-toolbar"
+      },
+      {
+        "label": "添加/删除地图类型、缩略图控件",
+        "alias": "add-del-overView"
+      },
+      {
+        "label": "添加版权控件",
+        "alias": "addCopyright"
+      },
+      {
+        "label": "添加自定义控件",
+        "alias": "addCustomControl"
+      }
+    ]
+  },
+  {
+    "label": "标绘示例",
+    "children": [
+      {
+        "label": "添加/删除点",
+        "alias": "add-del-feature-point"
+      },
+      {
+        "label": "添加/删除线",
+        "alias": "add-del-feature-line"
+      },
+      {
+        "label": "添加/删除面",
+        "alias": "add-del-feature-plo"
+      },
+      {
+        "label": "设置点新图标",
+        "alias": "setFeatureIcon"
+      }
+    ]
+  }
+]
