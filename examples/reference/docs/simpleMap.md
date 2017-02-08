@@ -5,12 +5,17 @@
 > 简单使用地图类库加载地图，不直接调用openlayer3
 
 <head>
-	<link href="../src/ol3.13.1/ol.css" rel="stylesheet" type="text/css" />
-	<script type="text/javascript" src="../src/ol3.13.1/ol.js" charset="utf-8"></script>
+	<link rel="stylesheet" href="https://openlayers.org/en/v3.19.1/css/ol.css" type="text/css">
+  <script src="https://openlayers.org/en/v3.19.1/build/ol.js"></script>
+  <style>
+    .map {
+      width: 100%;
+      height: 300px;
+    }
+  </style>
 </head>
-
 <body>
-	<div id="map" style="width: 100%"></div>
+	<div id="map" class="map" style="width: 100%"></div>
 	<script>
 	  new ol.Map({
 			layers: [
@@ -24,3 +29,5 @@
 	  });
 	</script>
 </body>
+
+> 要显示上面这个地图，仅需要新建一个html文档，在其中编写如下代码即可：
