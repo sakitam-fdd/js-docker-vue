@@ -5,7 +5,14 @@
     "edit-link",
     "prism",
     "github",
-    "theme-vuejs@git+https://github.com/pearofducks/gitbook-plugin-theme-vuejs.git"
+    "theme-vuejs@git+https://github.com/pearofducks/gitbook-plugin-theme-vuejs.git",
+    "mathjax",
+    "latex-codecogs",
+    "flow",
+    "flowchart",
+    "flowchart-full",
+    "new-flowchart",
+    "sequence-diagrams"
   ],
   "pluginsConfig": {
     "edit-link": {
