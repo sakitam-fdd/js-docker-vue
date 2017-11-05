@@ -12,13 +12,13 @@ const defaults = {
 Object.assign(axios.defaults, defaults)
 
 export const getDemoText = name => {
-  return axios.get(`/static/demo/${name}` + `.html`, {
+  return axios.get(`./static/demo/${name}` + `.html`, {
     baseURL: ''
   })
 }
 
 export const getNavlist = () => {
-  return axios.get('/static/json/navList.json', {
+  return axios.get('./static/json/navList.json', {
     baseURL: ''
   })
 }

@@ -1,6 +1,6 @@
 # web
 
-> webGIS
+> js-docker vue版，主要实现的是代码在线可编辑，实时预览功能。
 
 ## Build Setup
 

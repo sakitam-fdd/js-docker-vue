@@ -22,7 +22,7 @@
     },
     data () {
       return {
-        title: '恒达时讯WEBGIS开放平台'
+        title: 'WEBGIS开放平台'
       }
     },
     methods: {
